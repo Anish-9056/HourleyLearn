@@ -1,0 +1,461 @@
+<!-- <body data-spy=scroll data-target=#main-navbar> -->
+  <!-- <div class=loader>
+      <div class=xloader>
+      </div>
+  </div> -->
+  <div class=main-container id=page>
+      <header class="header bgtransparent bgwhite">
+          <div>
+          
+              <div class=row>
+                  <div class=col-xs-12>
+                      <div class="container">
+                          <div class="desk-menu">
+                              <div class=logo>
+                                  <a href=index.html class="navbar-brand logo-black smooth-scroll"
+                                      style=display:block!important>
+                                      <img src="assets/images/logo.png" class="" alt=logo>
+
+                                  </a>
+                              </div>
+                              <nav class=box-menu>
+                                  <div class=menu-container>
+                                      <div class=overlaybox>
+                                          <div class=menu-header-container>
+                                              <ul id=cd-primary-nav class=menu>
+                                                  <li class="active menu-item menu-item-has-children">
+                                                      <a href=#>Job</a>
+                                                      <ul class=sub-menu>
+                                                          <li class="menu-item"><a href="job-search.html">Job Search</a></li>
+                                                          <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                          <li class="menu-item"><a href="generate-cv.html">Generate CV</a></li>
+                                                          <li class="menu-item"><a href=#>Cover Letters</a></li>
+                                                          <li class="menu-item"><a href="showcase-cv.html">Showcase Your CV</a></li>
+                                                          <li class="menu-item"><a href=#>Make My Profile</a></li>
+                                                          <li class="menu-item"><a href=#>Interview Preparation</a></li>
+                                                      </ul>
+                                                  </li>
+                                                  <li class="menu-item menu-item-has-children fullWidthMenu">
+                                                      <a href=#>Hire Candiadate</a>
+                                                      <div class="sub-menu row">
+                                                          <div class="col-xs-12 col-md-6 border-right">
+                                                              <ul>
+                                                                  <li class="menu-item"><a href=#>Job Search</a></li>
+                                                                  <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                      
+                                                              </ul>
+                                                          </div>
+                                                          <div class="col-xs-12 col-md-6">
+                                                              <ul>
+                                                                  <li class="menu-item"><a href=#>Job Search</a></li>
+                                                                  <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                                 
+                                                              </ul>
+                                                          </div>
+                                                      </div>
+                                                  </li>
+                                                  <li class="menu-item menu-item-has-children fullWidthMenu">
+                                                      <a href=#>Hire Consultant</a>
+                                                      <div class="sub-menu row">
+                                                          <div class="col-xs-12 col-md-6 border-right">
+                                                              <ul>
+                                                                  <li class="menu-item"><a href=#>Job Search</a></li>
+                                                                  <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                                 
+                                                              </ul>
+                                                          </div>
+                                                          <div class="col-xs-12 col-md-6">
+                                                              <ul>
+                                                                  <li class="menu-item"><a href=#>Job Search</a></li>
+                                                                  <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                                 
+                                                              </ul>
+                                                          </div>
+                                                      </div>
+                                                  </li>
+
+                                                
+                                                  <li class="menu-item menu-item-has-children">
+                                                      <a href=#>Education</a>
+                                                      <ul class=sub-menu>
+                                                          <li class="menu-item"><a href=#>Job Search</a></li>
+                                                          <li class="menu-item"><a href=#>Submit CV</a></li>
+                                                  
+                                                      </ul>
+                                                  </li>
+                                                  
+                                             
+                                                  <!-- <li class=menu-item>
+                                                      <a href=#> Buy N Apply</a>
+                                                  </li> -->
+                                                  <li class=menu-item>
+                                                      <a href=#search><i class="fa fa-search"></i></a>
+                                                  </li>
+                                                  <li class=line></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <a href=#login class="btn-nav open-popup-link nabv bg-gradient">Login</a>
+                                  <div class=hamburger-menu>
+                                      <div class=bar></div>
+                                  </div>
+                              </nav>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <div id="search">
+          <button type="button" class="close">×</button>
+          <form>
+              <input type="search" value="" placeholder="Type Here..." />
+              <button type="submit" class="btn btn-full">Search</button>
+          </form>
+      </div>
+      <div id=login class="white-popup width320 mfp-hide">
+          <div class=row2>
+              <div class="width40 bg-gradient">
+                  <div class=log>
+                      <h2>Already Member?</h2>
+                      <a href=# class="btn btn-blue logins">Login</a>
+                  </div>
+                  <div class="sign hide">
+                      <h2>Create Account
+                      </h2>
+                      <a href=# class="btn btn-blue signup">Sign up</a>
+                  </div>
+              </div>
+              <div class=width60>
+                  <form class="form-horizontal loginf hide row">
+                      <h3 class="col-sm-12">Login</h3>
+                      <div class="col-sm-12 form-group">
+                          <input type=text class=form-control placeholder="Email/Phone" required>
+                      </div>
+                      <div class="col-sm-12 form-group">
+
+                          <input type=text id="pass_field" class="form-control " placeholder="Enter Password"
+                              required>
+                          <input type=number id="otp_field" class="form-control hide" placeholder="Enter Otp"
+                              required>
+                          <p id="opt_login">Login with OTP</p>
+                      </div>
+
+                      <div class="col-sm-12 form-group">
+                          <button type=submit class="btn btn-blue-rev">Login</button>
+                      </div>
+                      <div class="col-sm-12 form-group">
+                          <button type=submit class="btn btn-blue-rev"
+                              style="background-color: #3b5998 ;border: 0;">Login with Facebook</button>
+                          <button type=submit class="btn btn-blue-rev"
+                              style="background-color: #4285F4 ;border: 0;">Login with Google</button>
+                      </div>
+                  </form>
+                  <form class="form-horizontal signf row">
+                      <h3 class="col-sm-12">Sign up</h3>
+                      <div class="col-sm-12 form-group">
+                          <input type=text class=form-control placeholder="Enter Name" required>
+                      </div>
+                      <div class="col-sm-12 form-group">
+                          <input type=email class=form-control placeholder="Enter your Email" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <input type=password class=form-control placeholder="Password" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <input type=password class=form-control placeholder="Confirm Password" required>
+                      </div>
+                      <div class="col-sm-12 form-group">
+                          <input type=password class=form-control placeholder="Enter your number" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <input type=password class=form-control placeholder="Enter mobile Otp" required>
+                      </div>
+                      <div class="col-sm-6 form-group">
+                          <input type=password class=form-control placeholder="Enter your mail Otp" required>
+                      </div>
+                      <div class="col-sm-12 form-group">
+                          <button type=submit class="btn btn-blue-rev">Sign up</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <section class="hero1 herobg p-b-0" id="hero1-2">
+          <div class="banner3"></div>
+          <!-- <div class="banner1"></div> -->
+          <!-- <div class=overlay></div>  -->
+          <div class="container">
+              <div class="row text-center " style="margin-top: 20%;">
+                  <div class="col-sm-12 col-lg-12">
+                      <h2 class="lead1" >Get The Best Free Online Courses  </h2>
+                      <!-- <h3 class=" " ><span class="typed"></span></h3> -->
+                      <p class="para"  >Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Aut corrupti debitis ex unde error voluptatibus obcaecati rerum dolorem
+                          quos autem.</p>
+                      <!-- <a href=#details1 class="btn bg-gradient " >Learn
+                          More</a> -->
+                        <div class="row align-self-center" >
+                        <div class="col-sm-3 col-lg-4 form-group">
+                            <input type=text class=form-control placeholder="Enter Name" required>
+                        </div>
+                        <div class="col-sm-3 col-lg-4 form-group">
+                            <input type=email class=form-control placeholder="Enter your Email" required>
+                        </div>
+                        <div class="col-sm-3 col-lg-4 form-group">
+                        <button class="btn">Sign Up Now</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="hero2 herobg p-b-0">
+    
+        <div class="container">
+            <div class="row text-center " style="margin-top: 5%;">
+                <div class="col-sm-12 col-lg-12">
+                    <h2 class="lead1">Get The Best Free Online Courses  </h2>
+                    <!-- <h3 class=" " ><span class="typed"></span></h3> -->
+                    <p class="para" style="margin-bottom: 5%;">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Aut corrupti debitis ex unde error voluptatibus obcaecati rerum dolorem
+                        quos autem.</p>
+                    <!-- <a href=#details1 class="btn bg-gradient " >Learn
+                        More</a> -->
+                        <div class="row ">
+                            <div class="col-lg-4 mt-15" *ngFor="let data of courseData">
+          
+                                <div class="card" >
+                                    <img [src]="data.courseImg" class="card-img-top" alt="...">
+                                    <div class="card-body Knwoledge_block ">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>                              
+                            </div>
+                           
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero3 herobg p-b-0">
+    
+        <div class="container" style="background-color:#d82a4e ">
+            <div class="row text-center">
+                <div class="col-sm-12 col-lg-12" style="margin-top: 5%;">
+                    <h2 class="lead1  wow clearfix slideInUp">Search your Courses  </h2>
+                    <div class="row align-self-center white-box" style="margin: 5%;" >
+                        <div class="col-sm-3 col-lg-4 form-group">
+                            <input type=text class=form-control placeholder="Enter Name" required>
+                        </div>
+                        <div class="col-sm-3 col-lg-4 form-group">
+                            <input type=email class=form-control placeholder="Enter your Email" required>
+                        </div>
+                        <div class="col-sm-3 col-lg-4 form-group">
+                        <button class="btn">Sign Up Now</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero4 herobg p-b-0">
+    
+        <div class="contai">
+            <div class="row text-center " style="margin-top: 5%;">
+                <div class="col-sm-12 col-lg-12">
+                    <h2 class="lead1">Get The Best Free Online Courses  </h2>
+                    <!-- <h3 class=" " ><span class="typed"></span></h3> -->
+                    <p class="para " >Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Aut corrupti debitis ex unde error voluptatibus obcaecati rerum dolorem
+                        quos autem.</p>
+                    <!-- <a href=#details1 class="btn bg-gradient " >Learn
+                        More</a> -->
+                        <ul class="list-group" style="display: inline-flex;">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                        <div class="row ">
+                            <div class="col-lg-3 mt-15" *ngFor="let data of courseData">
+          
+                                <div class="card" >
+                                    <img [src]="data.courseImg" class="card-img-top" alt="...">
+                                    <span class="course_price">Price:$15</span>
+                                    <div class="card-body Knwoledge_block ">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>                              
+                            </div>
+                           
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero herobg p-b-0 mt-15">
+    
+      
+            <div class="row text-center ">
+                <div class="col-sm-12 col-lg-6 left-col">
+                        <div class="card card-left" >
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="card-body">
+                              
+                                <div class="row align-self-center" >
+                                    <div class="col-lg-12 form-group mt-15">
+                                        <input type=text class=form-control placeholder="Enter Name" required>
+                                    </div>
+                                    <div class="col-lg-12 form-group mt-15">
+                                        <input type=email class=form-control placeholder="Enter your Email" required>
+                                    </div>
+                                    <div class="col-lg-12 form-group mt-15">
+                                        <input type=email class=form-control placeholder="Enter your Email" required>
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-15">
+                                        <button class="btn">Sign Up Now</button>
+                                        </div>
+                                    <div class="col-lg-8 form-group mt-15">
+                                    <button class="btn">Sign Up Now</button>
+                                    </div>
+                                  </div>
+                              </div>
+                            
+                        </div>   
+                    </div>
+                    <div class=" col-sm-12 col-lg-6  right-col">
+                        <img src="assets/images/about_job.jpg" class="card-img-right" alt="...">                
+                    </div>       
+            </div>
+    </section>
+   
+  
+   
+    
+      <section class="p-y-lg bg-light">
+          <div class="container-2">
+              <!-- Section Header -->
+              <div class="row">
+                  <div class="width91">
+                      <div class="section-header text-center text-black wow fadeIn mb-80"
+                          style="visibility: visible; animation-name: fadeIn;">
+                          <h2>Knowledge</h2>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis minima magni
+                              temporibus maxime obcaecati a doloremque nobis. Nesciunt dolorem ex iste ducimus quae
+                              similique quo?</p>
+                             
+                      </div>
+                  </div>
+                  <div class="form-group mt-15" style="width: 100%;text-align: center;">
+                    <button class="btn" style="width: 150px;">Sign Up Now</button>
+                  </div>
+              </div>
+
+          </div>
+
+          <!-- /End Row -->
+
+          <!-- /End Container -->
+      </section>
+    
+
+
+      <footer  class="footer f2 bg-edit posrel">
+          <div class="overlay"></div>
+        
+          <div class="lowerfooter p-y">
+              <div class=container>
+                  <div class=row>
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-md">
+                          <div class=logo>
+                              <a href=index.html class="logo-black smooth-scroll d-flex align-items-center">
+                                  <img src="assets/images/logo.png"  alt="logo">
+
+                              </a>
+                              <p class=mt-15>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+                                  adipisci voluptatum doloribus minima dolorum officiis totam autem harum nostrum
+                                  suscipit utem harum nostrum suscipit utem harum nostrum suscipit.</p>
+                              <!-- <ul class="footer-links downbtn p-10">
+                                  <li>
+                                      <a href=""><img src="assets/images/apple.png" class="wow zoomIn" alt=""
+                                              style="visibility: visible; animation-name: zoomIn;"></a>
+                                  </li>
+                                  <li>
+                                      <a href=""><img src="assets/images/android.png" class="wow zoomIn" alt=""
+                                              style="visibility: visible; animation-name: zoomIn;"></a>
+                                  </li>
+
+                              </ul> -->
+                          </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 m-b-md">
+                          <h2 class="title bold">Quick Links</h2>
+                          <ul class=fotterlinks>
+                              <li><a href=#>Job Packages </a></li>
+                              <li> <a href=#>Post New Job</a></li>
+                              <li><a href=#>Job Listings</a></li>
+                              <li> <a href=#>Job Style Grid</a></li>
+                              <li> <a href=#>Emplpoyer Listing</a></li>
+                              <li> <a href=#>Employers Grid</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 m-b-md">
+                          <h2 class="title bold">For Canditate</h2>
+                          <ul class=fotterlinks>
+                              <li><a href=#>Job Packages </a></li>
+                              <li> <a href=#>Post New Job</a></li>
+                              <li><a href=#>Job Listings</a></li>
+                              <li> <a href=#>Job Style Grid</a></li>
+                              <li> <a href=#>Emplpoyer Listing</a></li>
+                              <li> <a href=#>Employers Grid</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 m-b-md">
+                          <h2 class="title bold">For Employers</h2>
+                          <ul class=fotterlinks>
+                              <li><a href=#>Job Packages </a></li>
+                              <li> <a href=#>Post New Job</a></li>
+                              <li><a href=#>Job Listings</a></li>
+                              <li> <a href=#>Job Style Grid</a></li>
+                              <li> <a href=#>Emplpoyer Listing</a></li>
+                              <li> <a href=#>Employers Grid</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="p-30 footer copyright f1 bg-edit">
+              <div class=container>
+                  <div class=row>
+                      <div class="col-sm-8 text-black">
+                          <p>© 2021. All Rights Reserved</p>
+                      </div>
+                      <div class=col-sm-4>
+                          <ul class=footer-social>
+
+                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                              <li><a href="#"><i class="fa fa-globe"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <div class=overlay111></div>
+
+      <a href=# class=top><i class=icon-angle-up></i></a>
+      

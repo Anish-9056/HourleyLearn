@@ -1,0 +1,91 @@
+.pageItem{
+    padding: 0 20px;
+    flex-basis:0;
+}
+.pageItem li{
+    flex: 1 1 0px;
+    list-style: none;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 14px;
+    margin: 2px;
+    border: 2px solid #1532b4;
+    color: #1532b4;
+    box-shadow: 0px 8px 48px 0px rgba(58,58,58,0.12);
+}
+.pageItem li.active{
+    background: #1532b4;
+    padding: 14px;
+    margin: 2px;
+    border: 2px solid #1532b4;
+    color: #fff;
+}
+.pageItem li.active a{
+    color: #fff;
+}
+.pageItem li a{
+    padding: 0;
+    color: #222;
+    /* background: transparent; */
+}
+.nav>li.active>a:focus, .nav>li.active>a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent;
+    color: #222;
+}
+.tab-content hr {
+    border-top: 2px solid #1532b4 !important;
+}
+.field_submssion > div{
+    padding-right:0
+}
+.field_submssion > div:first-child{
+    padding-left:0
+}
+.field_submssion > div:last-child{
+    padding-left:15px
+}
+@media only screen and (max-width: 991px) {
+    .field_submssion > div{
+        padding:0 !important;
+        margin-bottom: 5px;
+    }
+}
+table.skills_table{
+    border-collapse: separate;
+ border-spacing: 0 8px;
+ margin: 0 auto;
+}
+.skills_table tr td{
+    padding: 10px;
+}
+.skills_table tr{
+    padding: 10px 20px;
+    background: #f5f5f5;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.14);
+    margin-bottom: 20px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .upload-btn-wrapper img{
+      width: 50px;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .resume_img{
+      width: 400px;
+      border-radius: 7px;
+      border: 2px solid #1532b4;
+  }
